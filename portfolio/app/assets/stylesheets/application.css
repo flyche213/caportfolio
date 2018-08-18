@@ -1,0 +1,104 @@
+#twitterIcon{
+ color: rgb(0, 172, 233);
+}
+
+#githubIcon{
+  color: rgb(102,43,129);
+}
+#linkedinIcon{
+  color: rgb(0,126,176);
+}
+#youtubeIcon{
+  color: rgb(255,0,40);
+  
+}
+
+.nav-pills{
+ 
+  font-size: 2.0em;
+  background-color: black;
+  margin-bottom: 10%;
+}
+.block{
+  background-color: black;
+  opacity: .5;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+h1{
+  padding:0;
+  margin-top: 0px;
+  font-size: 5.0em;
+}
+.btn-default{
+  background-color: black;
+  border-color: black;
+  color: blue;
+  font-size: 1.5em;
+}
+
+body{
+  background: white;
+   font-family: Lobster;
+  color: white;
+}
+
+.pageOne{
+  background:url("https://images.unsplash.com/photo-1496243975092-6ec259c776e2?auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+ padding-bottom: 10%;
+ 
+}
+.pageTwo{
+  background: url("https://lh3.googleusercontent.com/O_wD67gPPFxGMb2IvJU7yIUC5PpKmqZRy953sgZUZSM-6rGCQZm0aht-QJLrJ9-o7epWw0jZQA2SSExX_ygbV15oF4UKGhRNQYbfwV4GCQmuDGE5UTqM1d48Fi0OUhY3aGlPvQpBEeqikDN8aZzoh1DBEyw6a5p6eyQ2huHXaypgjjJEP0sWLuA-57nqh_03M8hY7-WvACovpR1rgqcbSxmE_BTz49u34uFRajRXi9D_HsOtQaBaE9Kr1AKtxEt9K7nNyaESpdD-jXsxVG5Q-zTj7Ok4vxjAWfPHlnxx0Bqvpr4QWRr95J35-V9reBsGtHgQgGHPYo8Pr39tXy_AHpIQNe9p35pgnXfMvddqV63v3PzuiaRj1LjM9LK8Ue8pt9kixU6w8pzq99mhdMBv9r_FFyzLIRAUJkNU7JnfscuP75lwh6R9NLsn0PQ3jyxI4yuHVRf44x3CcufbXfG4sJb82yZA_vKYA7pUuNrW78imEraRhETgYv_COncz4TW91dubRxt8hsp56kP_lq8vQIZlbHuqAt4Fyj-M3vmGit-J_OCBEwE9YU6Sdww0iF-gbk0vU72NKHmqoemZd0OKy-v6ZwjADLJrSEXaQvA=w1034-h582-no");
+  background-size: cover;
+  height: 800px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.pageThree{
+  background:  url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=750&q=80");
+  background-size: cover; 
+  padding-top: 5%;
+  padding-bottom: 5%;
+    
+}
+.pageFour{
+  background: url("https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=624&q=80");
+  background-size: cover;
+  padding-top: 5%;
+/*     padding-bottom: 5%; */
+
+
+}
+.footer{
+  background-color: black;
+  
+}
+.footer p{
+  font-size: 15px;
+  
+}
+p{
+  font-size: 2.0em;
+}
+
+.me{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.paddingTop{
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+.paddingBTN{
+/*   padding-top: 25%;
+  padding-bottom: 25%; */
+  width: 200px;
+  margin-bottom: 25px;
+}

@@ -5,10 +5,44 @@
 
    p{
     font-size: 20px;
-    color: black;
+    color: white;
   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
 </style>
-<%= link_to 'Home', root_path %>
+
+<div class="pageFour text-center" id="p1">
+  <ul>
+  <li><%= link_to 'Home', root_path %></li>
+    <div>
+  <li><%= link_to 'Projects', projects_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Contact', contact_path %></li>
+    
+  </ul>
+
 <center>
 <h1 class="orange-text text-center">
   About Page
@@ -17,7 +51,7 @@
   Senior Software Engineering Student at University of Texas at Dallas.  Love working on a variety range of projects, experience with web applications
   all the way down to video games using object oriented programming and principles of software development.
   Familiar with algorithms and data-structures for creating hash tables and Search Trees.  
-  Great eye for design and love working with teams on collaborations for problem solving.   
+  Love working with teams on collaborations for problem solving.   
 </p>
 </center>
 

@@ -4,24 +4,61 @@ p{
     color: black;
   }
   h1{
-    padding-top: 50px;
-    color: purple;
+    padding-top: 100px;
+    color: orange;
   }
   h2{
-    color: purple;
+    color: orange;
   }
   p2{
-    color: black;
+    color: orange;
   }
+  
+    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
   </style>
 
-<%= link_to 'Home', root_path %>
+<div class="pageThree text-center" id="p1">
+  <ul>
+  <li><%= link_to 'Home', root_path %></li>
+    <div>
+    <li> <%= link_to 'About', about_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Contact', contact_path %></li>
+    
+  </ul>
+
+
 
 <center>
 <h1>Portfolio</h1>
     <h2>Projects by Akib Hossain</h2>
-  <p1>
-  
+  <p2>
+  Here are some projects that I worked on using languages from C++, Java, Ruby on Rails, with windows and unix operating system.  
+  Covers several principles like object oriented programming and data structures.   
   </p1>
 </center>
 
@@ -29,7 +66,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-      <a href="https://alpha-blog-akib.herokuapp.com/" target="blank"><h3>Baller-Blog</h3></a>
+      <a href="https://alpha-blog-akib.herokuapp.com/" target="blank"><h2>Baller-Blog</h2></a>
 <a href="https://alpha-blog-akib.herokuapp.com/">
 <img src="https://lh3.googleusercontent.com/vQrzObvsw2gohFINTbIdKxHRepa7BRvPPbeobqdeyLNAds_sziIg5HO47jDmvnnsltQyHdCl3ketFHucpJK2eB-rzky7Z-ryyIxbTer_UID-E8LETT0WJkSl_QOo842ASxCh5Sz252frnkIZK1iyOdW_MChy11cjaUKmJY-YOAcuE2USp0RlNRZRNtZBeUZeJ0y5c_25eTR6f65U8DoWBWeFFvbYdJlQ-60Dn4n9JXb78woptwZGbRLpU6X8c6d_1kfd8y-sTlXgGNSnIPC5WUDmEc1TH7pbTScrMopCV7qHbQqgzJ3TYme3r4uKTh4BEmJ3ddSD5njgETiEjwaY31hJJXcr3ZY5EKvXFSrxf33c2TLBotOtGtsEV69dXhFvNpAXyxJvoh_hvGuvFhPdYb7ReQNUJK32VSnYl3YMrbOYWmt41R9PM0r3IUlP7w8SKfC05jWbkifOElTJuErEM36fCMOiRnucVx228vNlCoSxqOJkHteptra6lc8GN0esUAaFTk_dV4HhNNRYgj-2vidi3kwaa7qIjseL5LkMwcqeBzz0sE873ar3kwJD1qdH7ZSV6YbMgnqMFxTuJE-WnBw7QPmD7RJG6zbybfs=w1882-h899-no"
      style="width:1500px;height:500px;">
@@ -46,7 +83,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-      <a href="https://github.com/flyche213/asteriod" target="blank"><h3>Asteroid</h3></a>
+      <a href="https://github.com/flyche213/asteriod" target="blank"><h2>Asteroid</h2></a>
 <a href="https://github.com/flyche213/asteriod">
 <img src="https://images.unsplash.com/photo-1529271208007-f3a35808467b?ixlib=rb-0.3.5&s=c14ec10eca52b7032acebe15df05f5d3&auto=format&fit=crop&w=343&q=80"
      style="width:1500px;height:500px;">
@@ -63,7 +100,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-      <a href="https://github.com/flyche213/board-game" target="blank"><h3>Board Game</h3></a>
+      <a href="https://github.com/flyche213/board-game" target="blank"><h2>Board Game</h2></a>
 <a href="https://github.com/flyche213/board-game">
 <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89f7259907bafccabeab5ed40f4c9e84&auto=format&fit=crop&w=1051&q=80"
      style="width:1500px;height:500px;">
@@ -79,7 +116,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-      <a href="https://github.com/flyche213/A_Hossain_HW6/blob/master/example1.cc" target="blank"><h3>Magic Table</h3></a>
+      <a href="https://github.com/flyche213/A_Hossain_HW6/blob/master/example1.cc" target="blank"><h2>Magic Table</h2></a>
 <a href="https://github.com/flyche213/A_Hossain_HW6/blob/master/example1.cc">
 <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-0.3.5&s=7632a09adb0c45c1893b3a527c7429ee&auto=format&fit=crop&w=967&q=80"
      style="width:1500px;height:500px;">
@@ -94,7 +131,7 @@ p{
   <div class="containter">
   <div class="row">
   <div class="col-md-6">
-    <a href="https://codepen.io/flyche213/full/QayKbK" target="blank"><h3>Tribute to Henry Ford</h3></a>
+    <a href="https://codepen.io/flyche213/full/QayKbK" target="blank"><h2>Tribute to Henry Ford</h2></a>
   <p data-height="265" data-theme-id="0" data-slug-hash="QayKbK" data-default-tab="result" data-user="flyche213" data-embed-version="2" data-pen-title="Henry Ford" class="codepen">See the Pen <a href="https://codepen.io/flyche213/pen/QayKbK/">Henry Ford</a> by Akib Hossain (<a href="https://codepen.io/flyche213">@flyche213</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js">
     </script>
@@ -108,7 +145,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-       <a href="https://www.deentravels.com/" target="blank"><h3>Deen Travels</h3></a>
+       <a href="https://www.deentravels.com/" target="blank"><h2>Deen Travels</h2></a>
 <a href="https://www.deentravels.com/">
 <img src="https://lh3.googleusercontent.com/bTPVvTfepcD5SG2ULeJH-WIYvi4Cne4TKPK25uUQ39OvMx9jigkfiKIFyn_f4FchBHFLabF6M6z-Vp7fbbCUiD40Vdsgr7bA6GOjFg9N7ICC5bTchm_wkFKVDa_5Izp45YbYJdQI-jQNYMwnh30SNeyIFZycWIQMHqwfmQhT6pTKEtlAvcR4s1rDbFcoOd4M54XCycR3b-yQgAkDR66ZTgXN2J3KCDwI3u8AkRtEumsAkEVr2cVdEDLhivQMSnWiDubB6mlwjuTCbYPAeW0LR2cKE8MpE8olTUrWfro6X1VuNMvNP8SaO2vbeXGmkzU1IpL11DiBmGEChsx1X11hEV2xMerpvpvavBsVZ5rpQtq7fOrF8xN785EDFlTnyNOd_SSiMWhyHSSlCSVVUgLQL9YPXl6iC8mSIgacjpy-LzL16BEM9AC1cUsnvxLKqxR_OJteE2ioNYQzpymUIaO4kcQNVrf5AwkCLyTNEYXz_gvzJCrv8mVw_3Zai33EbSxkajdGq9m-TFFbP-6fop8tvzotdMunEsSLWr8eS119mKwTUvfD8aUNAfur8LoNAabLQMI8GOznfVDzgELCSxlK3c5WGw2M7e9O1p7eIcQ=w1838-h937-no"
      style="width:1500px;height:500px;">
@@ -123,7 +160,7 @@ p{
   <div class="row">
   <div class="col-md-6">
     <div class="paddingTop">
-      <a href="https://github.com/flyche213/dictionary" target="blank"><h3>Dictionary</h3></a>
+      <a href="https://github.com/flyche213/dictionary" target="blank"><h2>Dictionary</h2></a>
 <a href="https://github.com/flyche213/dictionary">
 <img src="https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67903a3d35fc9a4262b94cd0ebec8c12&auto=format&fit=crop&w=1053&q=80"
      style="width:1500px;height:500px;">
@@ -132,10 +169,11 @@ p{
      Dictionary using hash tables and data structures to find specific words | 
       Java   
       </p2>
+      </div>
 
 
 
 
-      <p>	Copyright © Akib 2018. All Rights Reserved</p>
+      <p2>	Copyright © Akib 2018. All Rights Reserved</p2>
     
     
